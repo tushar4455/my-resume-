@@ -1,79 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tushar Sharma - Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Sharma - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <nav>
-    <div class="logo">
-      <img src="my logo.jpg" alt="Tushar's Logo">
-    </div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <div id="toggle-button" class="toggle-button">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
-  </nav>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="hey. its tushar.png" alt="Tushar's Logo">
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>1
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toggle-button" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="header-content">
-      <h2>Welcome to My World</h2>
-      <p>Explore my journey as a developer, innovator, and creator.</p>
-      <a href="https://discord.gg/hell-community" class="go-button">Join Us</a>
-    </div>
-  </header>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="header-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm Tushar, a passionate developer focused on innovation and creativity.</p>
+            <a href="https://www.instagram.com/hey.itscode/" class="go-button" target="_blank" rel="noopener noreferrer">Join Us</a>
+        </div>
+    </header>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm Tushar, a passionate software developer with a focus on building efficient and creative solutions using cutting-edge technologies.</p>
-  </section>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I specialize in building efficient and creative solutions using cutting-edge technologies.</p>
+    </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>My Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-    </ul>
-  </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+        </div>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project One</h3>
-      <p>Details about the first project.</p>
-    </div>
-    <div class="project">
-      <h3>Project Two</h3>
-      <p>Details about the second project.</p>
-    </div>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio showcasing my work and skills.</p>
+            </div>
+            <div class="project">
+                <h3>Discord Bot</h3>
+                <p>A bot with moderation and fun features for Discord servers.</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Let's connect and create something amazing!</p>
-    <a href="mailto:tushar@example.com">Email Me</a>
-    <br>
-    <a href="https://discord.gg/hell-community">Join My Discord</a>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's collaborate on something amazing!</p>
+        <div class="contact-links">
+            <a href="mailto:tushar@example.com" class="contact-btn">📧 Email Me</a>
+            <a href="resume.html" target="_blank" class="contact-btn">💬 AUBOT ME</a>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
